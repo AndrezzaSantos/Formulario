@@ -12,26 +12,18 @@
         <h1 id="titulo">Cadastro de DEV</h1>
         <p id="subtitulo">Complete suas informações</p>
     </div>
-    <form>
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="nome"><strong>Nome</strong></label>
-                <input type="text" name="sobrenome" id="sobrenome" required>
-            </div>
-
-            <div class="campo">
-                <label for="sobrenome"><strong>Sobrenome</strong></label>
-                <input type="text" name="sobrenome" id="sobrenome" required>
-            </div>
-        </fieldset>
+    <form>     
 
         <div class="campo">
+            <label for="nome"><strong>Nome Completo</strong></label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+
             <label for="email "><strong>Email</strong></label>
             <input type="email" name="email" id="email" required>
         </div>
 
         <div class="campo">
-            <label><strong>qual lado da aplicação você desenvolve?</strong></label>
+            <label><strong>Qual lado da aplicação você desenvolve?</strong></label>
             <label>
                 <input type="radio" name="devweb" value="frontend" checked>Front-end
             </label>
@@ -75,7 +67,7 @@
 
         <div class="grupo">
             <br>
-            <label">Conte um pouco da sua experiência:</label>
+            <label"><strong>Conte um pouco da sua experiência:</strong></label><br>
             <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
         </div>
 
